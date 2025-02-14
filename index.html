@@ -6,14 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina prueba</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 
 
 </head>
 
 <body>
 
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+            <a class="header__menu__link" href="curriculo.html">Curriculum</a>
+        </nav>
+    </header>
 
     <main class="presentacion">
 
@@ -28,8 +34,11 @@
 
             <div class="presentacion__enlaces">
                 <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes</h2>
-                <a class="presentacion__enlaces_link" href="https://www.instagram.com">Instagram</a>
-                <a class="presentacion__enlaces_link" href="https://github.com/Jose-Angel-12">GitHud</a>
+                <a class="presentacion__enlaces_link" href="https://www.instagram.com">
+                    <img src="assets/instagram.png" alt="Icono-instagram">Instagram</a>
+                <a class="presentacion__enlaces_link" href="https://github.com/Jose-Angel-12">
+                    <img src="assets/github.png" alt="Icono-githud ">GitHud</a>
+
             </div>
 
         </section>
@@ -38,7 +47,11 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <p>
+            Desarrolado por Jose Angel
+        </p>
+    </footer>
 
 </body>
 
